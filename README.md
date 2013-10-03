@@ -1,4 +1,4 @@
 Arduino
 =======
 
-A collection of Arduino related code.
+A collection of Arduino sketches, and maybe eventually some libraries.
