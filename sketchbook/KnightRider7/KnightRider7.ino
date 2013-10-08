@@ -23,7 +23,8 @@ Board options =========================================================
 const uint8_t num_leds = 10;
 
 // declare a pin for each LED
-uint8_t pinArray[num_leds] = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11};
+// pins 9,10,11 cause conflicts with the timers
+uint8_t pinArray[num_leds] = {2, 3, 4, 5, 6, 7, 8, 44, 45, 46};
 
 // initialize brightness for each LED
 int bright[num_leds] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
